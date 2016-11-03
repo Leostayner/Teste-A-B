@@ -1,0 +1,370 @@
+
+body.body-comp {
+	background-image: url('../Imagens/code.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.body-meca{
+	background-image: url('../Imagens/mecatronica_3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+body.body-mecanica{
+	background-image: url('../Imagens/mecanica.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body.body-pensa{
+	background-image: url('../Imagens/sala_de_aula.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+h1 {
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	font-size: 3em;
+}
+
+h2 {
+	text-align: center;
+	padding: 5px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+
+#header-background {
+	overflow: hidden;
+	height: 100px;
+	background: #0049B1;
+	border-radius: 6%;
+}
+
+#header {
+	overflow: hidden;
+	width: 1300px;
+	height: 120px;
+	margin: 0px auto;
+}
+
+/*Imagem do Aluno*/
+
+#insper {
+	float: left;
+	padding: 10px 0px 0px 0px;
+	border-radius: 50%
+}
+
+/* Menu */
+#padding {
+	padding: 0px 0px 0px 30px
+}
+
+#menuheader{
+	float: right;
+	width: 900px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menuheader ul {
+	float: right;
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.5rem;
+}
+
+
+#menuheader li {
+	float: left;
+	padding: 0px;
+}
+
+#menuheader a {
+	display: inline-block;
+	margin-right: 0px;
+	padding: 10px 10px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	border: none;
+}
+/* Conteúdo*/
+
+#comp-teorica {
+	overflow: hidden;
+	width: 1200px;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0px 0px 70px 0px;
+}
+
+#comp-teorica h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 26px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#comp-pratica {
+	overflow: hidden;
+	width: 1200px;
+	margin: 0px auto;
+	padding: 0px 0px 70px 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#comp-pratica h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 26px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#comp-pratica2 {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px 0px 70px 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#comp-pratica2 h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 26px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#coluna-meio{
+	float: left;
+	width: 300px;
+	margin-left: 420px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna1 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	margin-left: 50px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna2 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	margin-left: 0px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna3 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna4 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	margin-left: 240px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna5 {
+	float: left;
+	width: 300px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna6 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	margin-left: 50px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna7 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	margin-left: 0px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna8 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna9 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	margin-left: 240px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna10 {
+	background: #EDEDED;
+	border-radius: 4%;
+	float: left;
+	width: 300px;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna11 {
+	float: left;
+	width: 300px;
+	margin-right: 30px;
+	margin-left: 132px;
+	background: #EDEDED;
+	border-radius: 4%;
+	padding: 0px 20px 20px 20px;
+}
+
+#coluna12 {
+	background: #EDEDED;
+	border-radius: 4%;
+	float: left;
+	width: 300px;
+	padding: 0px 20px 20px 20px;
+}
+
+.texto {
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* Botão */
+
+.botao-saibamais a {
+	display: block;
+	float: left;
+	width: 100px;
+	padding: 10px 5px;
+	margin-right: 10px;
+	margin-left: 95px;
+	background: #0049B1;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.botao-saibamais span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.botao-saibamais span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.botao-saibamais:hover span {
+  padding-right: 15px;
+}
+
+.botao-saibamais:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#footer-background {
+	overflow: hidden;
+	height: 90px;
+	background: #0049B1;
+	border-radius: 6%;
+}
+
+#footer {
+	width: 1300px;
+	height: 70px;
+	margin: 0px auto;
+	font-family: 'Signika', sans-serif;
+}
+
+#insperfooter {
+	float: left;
+	padding: 20px 0px 0px 0px;
+}
+
+#menufooter {
+	float: right;
+	width: 600px;
+	height: 90px;
+}
+
+#menufooter ul {
+	float: right;
+	margin: 0;
+	padding: 11px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menufooter li {
+	float: left;
+	padding: 0px;
+}
+
+#menufooter a {
+	display: inline-block;
+	margin-right: 1px;
+	padding: 20px 10px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	border: none;
+}
+
+.img{
+	opacity: 1;
+}

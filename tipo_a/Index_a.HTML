@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		  <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js" >
+  </script>
+    <script>
+  versao = "A"
+  </script>
+  <script src="scripts/main.js"></script>
+		<meta charset="utf-8">
+		<title>Home</title>
+		<link href="tipuesearch/tipuesearch.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="CSS/estiloMain.css">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="header-background">
+			<div id="header" class="container">
+				<div>
+					<a href = Alumni.HTML><img id="insper" src="Imagens/Aluno.jpg" width="80" height="80" alt=""></a>
+				</div>
+				<div id="menuheader">
+					<ul>
+						<li><a href = Mec.HTML>Mecânica</a></li>
+						<li><a href = Meca.HTML>Mecatrônica</a></li>
+						<li><a href = Comp.HTML>Computação</a></li>
+						<li id = "Final"><a href = Pcrit.HTML>Pensamento Crítico</a></li>
+						<li>
+							<form id = "padding" action="Results.html">
+								<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+							</form>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<h1>Portfólio de Projetos</h1>
+		<div id="comp-teorica">
+			<div id="coluna4">
+				<h3>Engenheiro Mecânico</h3>
+				<p class = 'imagem'><img src="Imagens/Mecanica.jpg" width="300" height="150" alt="" /></p>
+				<p class="texto">Projetos que demonstram competências de Engenheiro Mecânico.</p>
+				<p class="botao-saibamais"><a href="./Mec.HTML"><span>Saiba Mais</span></a></p>
+			</div>
+			<div id="coluna5">
+				<h3>Engenheiro Mecatrônico</h3>
+				<p class = 'imagem'><img src="Imagens/mecatronica_3.jpg" width="300" height="150" alt="" /></p>
+				<p class="texto">Projetos que demonstram competências de Engenheiro Mecatrônico.</p>
+				<p class="botao-saibamais"><a href="./Meca.HTML"><span>Saiba Mais</span></a></p>
+			</div>
+		</div>
+		<div id="comp-pratica">
+			<div id="coluna9">
+				<h3>Engenheiro de Computação</h3>
+				<p class = 'imagem'><img src="Imagens/code.jpg" width="300" height="150" alt="" /></p>
+				<p class="texto">Projetos que demonstram competências de Engenheiro de Computação</p>
+				<p class="botao-saibamais"><a href="./Comp.HTML"><span>Saiba Mais</span></a></p>
+			</div>
+			<div id="coluna10">
+				<h3>Pensamento Crítico</h3>
+				<p class = 'imagem'><img src="Imagens/board.jpg" width="300" height="150" alt="" /></p>
+				<p class="texto">Projetos que demonstram competências de Pensamento Critico/Projetos Sociais</p>
+				<p class="botao-saibamais"><a href="./Pcrit.HTML"><span>Saiba Mais</span></a></p>
+			</div>
+		</div>
+		<div id="footer-background">
+			<div id = "footer">
+			<div>
+				<img id="insperfooter" src="Imagens/insper.png" alt="">
+			</div>
+				<div id="menufooter">
+				<ul>
+					<li><a href = Mec.HTML>Mecânica</a></li>
+					<li><a href = Meca.HTML>Mecatrônica</a></li>
+					<li><a href = Comp.HTML>Computação</a></li>
+					<li><a href = Pcrit.HTML>Pensamento Crítico</a></li>
+					<li><a href = Alumni.HTML>Alunos</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

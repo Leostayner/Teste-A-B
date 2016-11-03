@@ -1,0 +1,304 @@
+body {
+	background-image: url('../Imagens/fablab.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	/*background: #757575;*/
+}
+
+h1 {
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	font-size: 3em;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	padding: 5px;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+#header-background {
+	overflow: hidden;
+	height: 100px;
+	background: #0049B1;
+	border-radius: 6%;
+}
+
+#header {
+	overflow: hidden;
+	width: 1300px;
+	height: 120px;
+	margin: 0px auto;
+}
+
+/*Imagem do Aluno*/
+
+#insper {
+	float: left;
+	padding: 10px 0px 0px 0px;
+	border-radius: 50%
+}
+
+/* Menu */
+#padding {
+	padding: 0px 0px 0px 30px
+}
+
+#menuheader{
+	float: right;
+	width: 900px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menuheader ul {
+	float: right;
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.5rem;
+}
+
+
+#menuheader li {
+	float: left;
+	padding: 0px;
+}
+
+#menuheader a {
+	display: inline-block;
+	margin-right: 0px;
+	padding: 10px 10px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	border: none;
+}
+
+/* Conteúdo*/
+
+#comp-teorica {
+	overflow: hidden;
+	text-align: center;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px 150px 70px 0px;
+}
+
+#comp-teorica h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 26px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#comp-pratica {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px 150px 30px 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#comp-pratica h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 26px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#comp-pratica2 {
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 0px 0px 30px 0px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#comp-pratica2 h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 26px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+#coluna-meio{
+	width: 350px;
+	margin-left: 350px;
+}
+
+#coluna1 {
+	float: left;
+	width: 350px;
+	margin-right: 50px;
+}
+
+#coluna2 {
+	float: left;
+	width: 350px;
+}
+
+#coluna3 {
+	float: right;
+	width: 350px;
+}
+
+#coluna4 {
+	float: left;
+	width: 350px;
+	margin-right: 50px;
+	margin-left: 190px;
+	background: #EDEDED;
+	border-radius: 4%;
+}
+
+#coluna5 {
+	float: left;
+	width: 350px;
+	background: #EDEDED;
+	border-radius: 4%;
+
+}
+
+#coluna6 {
+	float: left;
+	width: 350px;
+	margin-right: 50px;
+}
+
+#coluna7 {
+	float: left;
+	width: 350px;
+}
+
+#coluna8 {
+	float: right;
+	width: 350px;
+}
+
+#coluna9 {
+	float: left;
+	width: 350px;
+	margin-right: 50px;
+	margin-left: 190px;
+	background: #EDEDED;
+	border-radius: 4%;
+}
+
+#coluna10 {
+	float: left;
+	width: 350px;
+	background: #EDEDED;
+	border-radius: 4%;
+}
+
+.texto {
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* Botão */
+
+.botao-saibamais a {
+	display: block;
+	text-align: center;
+	width: 100px;
+	padding: 10px 5px;
+	margin-right: 10px;
+	margin-left: 120px;
+	background: #0049B1;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.botao-saibamais span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.botao-saibamais span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.botao-saibamais:hover span {
+  padding-right: 15px;
+}
+
+.botao-saibamais:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.imagem{
+	text-align: center;
+}
+
+#footer-background {
+	overflow: hidden;
+	height: 90px;
+	background: #0049B1;
+	border-radius: 6%;
+}
+
+#footer {
+	width: 1300px;
+	height: 70px;
+	margin: 0px auto;
+	font-family: 'Signika', sans-serif;
+}
+
+#insperfooter {
+	float: left;
+	padding: 20px 0px 0px 0px;
+}
+
+#menufooter {
+	float: right;
+	width: 600px;
+	height: 90px;
+}
+
+#menufooter ul {
+	float: right;
+	margin: 0;
+	padding: 11px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menufooter li {
+	float: left;
+	padding: 0px;
+}
+
+#menufooter a {
+	display: inline-block;
+	margin-right: 1px;
+	padding: 20px 10px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	border: none;
+}

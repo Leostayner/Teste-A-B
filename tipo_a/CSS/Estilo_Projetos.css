@@ -1,0 +1,265 @@
+body {
+	background-image: url('../Imagens/board.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+	font-size: 3em;
+}
+
+p{
+		padding: 5px 0px 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	font-size: 1em;
+	font-style:italic;
+}
+
+h2 {
+	text-align: center;
+	padding: 5px;
+	font-family: 'Ubuntu', sans-serif;
+	color: white;
+}
+
+h3{
+	text-align: center;
+	padding: 5px 0px 10px 0px;
+	font-family: 'Ubuntu', sans-serif;
+	color: black;
+	font-size: 3em;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+
+#imagem_perfil{
+	border-radius: 50%;
+}
+
+#header-background {
+	overflow: hidden;
+	height: 100px;
+	background: #0049B1;
+	border-radius: 6%;
+}
+
+#header {
+	overflow: hidden;
+	width: 1300px;
+	height: 120px;
+	margin: 0px auto;
+}
+
+/*Imagem do Aluno*/
+
+#insper {
+	float: left;
+	padding: 10px 0px 0px 0px;
+	border-radius: 50%
+}
+
+/* Menu */
+#padding {
+	padding: 0px 0px 0px 30px
+}
+
+#menuheader{
+	float: right;
+	width: 900px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menuheader ul {
+	float: right;
+	margin: 0;
+	padding: 30px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+	font-family: 'Signika', sans-serif;
+	font-size: 1.5rem;
+}
+
+
+#menuheader li {
+	float: left;
+	padding: 0px;
+}
+
+#menuheader a {
+	display: inline-block;
+	margin-right: 0px;
+	padding: 10px 10px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	border: none;
+}
+
+/* Conteúdo*/
+
+#comp-teorica{
+	overflow: hidden;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 20px 20px 30px 20px;
+	background: #EDEDED;
+	border-radius: 4%;
+	opacity: 1	;
+
+}
+
+#comp-teorica h3 {
+	padding: 20px 0px 0px 0px;
+	font-size: 26px;
+	text-align: center;
+}
+
+
+#coluna-meio{
+	width: 700px;
+	margin-left: 300px;
+	background: #EDEDED;
+	border-radius: 4%;
+	font-family: "Oxygen", sans-serif;
+}
+#coluna-meio p{
+	margin-left: 200px;
+}
+
+#coluna-meio img{
+	margin-left: center;
+}
+
+#coluna1 {
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+	margin-left: 0px;
+	background: #EDEDED;
+	border-radius: 4%;
+}
+
+#coluna2 {
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+	margin-left: 0px;
+	background: #EDEDED;
+	border-radius: 4%;
+}
+
+#coluna3 {
+	float: right;
+	background: #EDEDED;
+	border-radius: 4%;
+	width: 300px;
+}
+
+.texto {
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/* Botão */
+
+.botao-saibamais a {
+	display: block;
+	float: left;
+	width: 100px;
+	padding: 10px 5px;
+	margin-right: 10px;
+	margin-left: 95px;
+	background: #0049B1;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.botao-saibamais span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.botao-saibamais span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.botao-saibamais:hover span {
+  padding-right: 15px;
+}
+
+.botao-saibamais:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+#footer-background {
+	margin-top: 20px;
+	overflow: hidden;
+	height: 90px;
+	background: #0049B1;
+	border-radius: 6%;
+}
+
+#footer {
+	width: 1300px;
+	height: 70px;
+	margin: 0px auto;
+	font-family: 'Signika', sans-serif;
+}
+
+#insperfooter {
+	float: left;
+	padding: 20px 0px 0px 0px;
+}
+
+#menufooter {
+	float: right;
+	width: 700px;
+	height: 90px;
+}
+
+#menufooter ul {
+	float: right;
+	margin: 0;
+	padding: 11px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menufooter li {
+	float: left;
+	padding: 0px;
+}
+
+#menufooter a {
+	display: inline-block;
+	margin-right: 1px;
+	padding: 20px 10px 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	border: none;
+}
