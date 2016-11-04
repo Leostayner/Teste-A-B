@@ -12,9 +12,18 @@
 		<link href="tipuesearch/tipuesearch.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="CSS/estiloMain.css">
 		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
+
+	</script>
 	</head>
 
-	<body>
+
+	  <body onload="tempo_inicial();">
+      <script src="../client.min.js"></script>
+      <script>
+        var client = new ClientJS();
+        var id_pessoa = client.getFingerprint();
+      </script> 
+
 		<div id="header-background">
 			<div id="header" class="container">
 				<div>
@@ -39,7 +48,7 @@
 		<div id="comp-teorica">
 			<div id="coluna4">
 				<h3>Engenheiro Mecânico</h3>
-				<p class = 'imagem'><img src="Imagens/Mecanica.jpg" width="300" height="150" alt="" /></p>
+				<p class = 'imagem'><img src="Imagens/mecanica.jpg" width="300" height="150" alt="" /></p>
 				<p class="texto">Projetos que demonstram competências de Engenheiro Mecânico.</p>
 				<p class="botao-saibamais"><a href="./Mec.HTML"><span>Saiba Mais</span></a></p>
 			</div>

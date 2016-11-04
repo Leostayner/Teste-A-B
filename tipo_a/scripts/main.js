@@ -29,3 +29,4 @@ function tempo_inicial(){
   var d = Date.now();
   // enviar para Firebase
   envia("inicio", id_pessoa, d, versao);
+}
