@@ -1,118 +1,75 @@
 <!DOCTYPE html>
-<html lang="pt">
-	<head>
-	  <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js" >
+<html>
+  <head>
+        <script src="https://www.gstatic.com/firebasejs/3.5.2/firebase.js" >
   </script>
-
   <script>
   versao = "B"
   </script>
-
-  <script src="scripts/main.js"></script>  
+  <script src="../scripts/main.js"></script>
   
-
-  <script>       
-  	envia("final", id_pessoa, Date.now(), versao);
-    window.location.replace("agradecimento.html");
-  </script>      
-
-
-		<meta charset="utf-8">
-		<title>Projeto Brinquedo</title>
-		<link rel="stylesheet" type="text/css" href="../CSS/Estilo_Projetos.css">
-		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
-
-
-
-	</head>
-
-
-
-	  <body onload="tempo_inicial();">
-      <script src="client.min.js"></script>
+    <meta charset="utf-8">
+    <title>Welcome to Firebase Hosting</title>
+    <style media="screen">
+      body {
+        font-family: Roboto, Arial, sans-serif;
+        background: #ECEFF1;
+        color: rgba(0,0,0,0.87);
+      }
+      a {
+        color: rgb(3,155,229);
+      }
+      #message {
+        max-width: 400px;
+        margin: 40px auto;
+        box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+        border-radius: 2px;
+        background: white;
+        padding: 16px 24px;
+      }
+      #message h1 {
+        font-size: 22px;
+        font-weight: 500;
+        text-align: center;
+        margin: 0 0 16px;
+      }
+      #message p {
+        font-weight: 300;
+        line-height: 150%;
+      }
+      #message ul {
+        list-style: none;
+        margin: 16px 0 0;
+        padding: 0;
+        text-align: center;
+      }
+      #message li a {
+        display: inline-block;
+        padding: 8px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+        background: rgb(3,155,229);
+        color: white;
+        border: 1px solid rgb(3,155,229);
+        border-radius: 3px;
+        font-size: 14px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+      }
+    </style>
+      </style>
+  </head>
+  <body onload="envia('final', id_pessoa, Date.now(), 'B');" >
+  <script src="../../client.min.js"></script>
       <script>
         var client = new ClientJS();
         var id_pessoa = client.getFingerprint();
       </script>
-
-
-
-	<body>
-			<div id="header-background">
-			<div id="header" class="container">
-				<div>
-					<a href = ../Alumni.HTML><img id="insper" src="../Imagens/Aluno.jpg" width="80" height="80" alt=""></a>
-				</div>
-				<div id="menuheader">
-					<ul>
-						<li><a href = ../Index.HTML>Home</a></li>
-						<li><a href = ../Mec.HTML>Mecânica</a></li>
-						<li><a href = ../Meca.HTML>Mecatrônica</a></li>
-						<li><a href = ../Comp.HTML>Computação</a></li>
-						<li><a href = ../Pcrit.HTML>Pensamento Crítico</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<h1>O pinguin</h1>
-
-		<h2>Projeto de produção de brinquedo infantil</h2>
-
-		<div id="coluna-meio">
-				<p><img src="./Imagens/pinguin.jpg" width="300" height="150" alt="" /></p>
-				<p class="texto">
-					<ul>
-						<li>Nome: Pinguin</li>
-						<li>Participantes: Eduardo Magalhães, Carlos, Marcelo, Alfredo</li>
-						<li>Curso: Natureza do Design</li>
-						<li>Período: 1° semestre</li>
-						<li>Contato com o usuário: Sim</li>
-						<li>Formato: Protótipo de Brinquedo infantil</li>
-						<li>Duração: 3 semanas</li>
-						<li>Descrição: Brinquedo idealizado e prototipado para crianças de 11 a 13 anos com validação em uma escola</li>
-					</ul>
-				</p>
-			</div>
-		</div>
-		
-		<h2>Projetos Relacionados</h2>
-
-		<div id="comp-teorica">
-			<div id="coluna1">
-				<h3>Barata Elétrica</h3>
-				<p class="texto">Análise e tranformação de uma barata elétrica em um outro produto.</p>
-				<p class="botao-saibamais"><a href="./BarataEletrica.HTML"><span>Saiba Mais</span></a></p>
-			</div>
-
-			<div id="coluna2">
-				<h3>Protótipo Website</h3>
-				<p class="texto">Desenvolvimento de um portfólio com os projetos do aluno em formato de site.</p>
-				<p class="botao-saibamais"><a href="./Website.HTML"><span>Saiba Mais</span></a></p>
-			</div>
-
-			<div id="coluna3">
-				<h3>Protótipo de um APP</h3>
-				<p class="texto">Desenvolvimento de um aplicativo de celular.</p>
-				<p class="botao-saibamais"><a href="./APP.HTML"><span>Saiba Mais</span></a></p>
-			</div>
-		</div>
-
-		<div id="footer-background">
-			<div id = "footer">
-			<div>
-				<img id="insperfooter" src="../Imagens/insper.png" alt="">
-			</div>
-				<div id="menufooter">
-				<ul>
-					<li><a href = ../Index.HTML>Home</a></li>
-					<li><a href = ../Mec.HTML>Mecânica</a></li>
-					<li><a href = ../Meca.HTML>Mecatrônica</a></li>
-					<li><a href = ../Comp.HTML>Computação</a></li>
-					<li><a href = ../Pcrit.HTML>Pensamento Crítico</a></li>
-					<li><a href = ../Alumni.HTML>Aluno</a></li>
-				</ul>
-			</div>
-		</div>
-	</body>
+    <div id="message">
+      <h1>Muito obrigado</h1>
+      <p>Muito obrigado por ter ajudado com nosso projeto!</p>
+      <ul>
+      </ul>
+    </div>
+  </body>
 </html>

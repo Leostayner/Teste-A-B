@@ -16,7 +16,14 @@
 		<link href="https://fonts.googleapis.com/css?family=Oxygen|Signika|Ubuntu" rel="stylesheet">
 	</head>
 
-	<body>
+	  <body onload="tempo_inicial();">
+      <script src="../client.min.js"></script>
+      <script>
+        var client = new ClientJS();
+        var id_pessoa = client.getFingerprint();
+      </script> 
+
+
 		<div id="header-background">
 			<div id="header" class="container">
 				<div>
